@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-view, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" , href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Zoo Customers Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve our service!</p>
+    <form id="survey-form" method="post" action="/">
+        <fieldset>
+            <label id="name-label" for="name">Name: <input id="name" name="name" type="text"
+                    placeholder="Enter your name" required />
+            </label>
+            <label id="email-label" for="email">Email: <input id="email" name="email" type="email"
+                    placeholder="Enter your Email" required />
+            </label>
+            <label id="number-label" for="number">Age (optional): <input id="number" name="age" type="number"
+                    pattern="[0-9]" min="13" max="120" placeholder="Age" />
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown" name="visiting-times-label">How often do you visit to our Zoo-Park?
+                <select id="dropdown" name="visiting-times">
+                    <option value="">Select visiting times</option>
+                    <option value="1">Once a year</option>
+                    <option value="2">Twice a year</option>
+                    <option value="3">Three times a year</option>
+                    <option value="4">More than three times a year</option>
+                </select>
+            </label>
+            <h4>How do you usually get to our Zoo-Park?</h4>
+            <label for="transport" name="transport-label">
+                <input id="transport" class="inline" type="radio" name="transport" value="drive"/>Drive
+            </label>
+            <label for="transport" name="transport-label">
+                <input id="transport" class="inline" type="radio" name="transport" value="public-transportation"/>Public transportation
+            </label>
+            <label for="transport" name="transport-label">
+                <input id="transport" class="inline" type="radio" name="transport" value="walk"/>Walk
+            </label>
+            <label for="transport" name="transport-label">
+                <input id="transport" class="inline" type="radio" name="transport" value="other"/>Other
+            </label>
+            <div class="favorite-animals">
+                <h4>What are your favorite animals to observe in our Zoo-Park?</h4>
+                <input id="lion" name="favorite-animals" type="checkbox" value="lion"><label for="lion" name="lion-label">Lions</label><br>
+                <input id="elephant" name="favorite-animals" type="checkbox" value="elephant"><label for="elephant" name="elephant-label">Elephants</label><br>
+                <input id="bird" name="favorite-animals" type="checkbox" value="bird"><label for="bird" name="bird-label">Birds</label><br>
+                <input id="giraffe" name="favorite-animals" type="checkbox" value="giraffe"><label for="giraffe" name="giraffe-label">Giraffes</label><br>
+                <input id="monkey" name="favorite-animals" type="checkbox" value="monkey"><label for="monkey" name="monkey-label">Monkeys</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="comment" name="comment-label">What improvements would you like to see at the Zoo?
+                <textarea id="comment" name="comment" rows="5" cols="50"
+                    placeholder="I like to see ...">
+                </textarea>
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+    </form>
+    </div>
+</body>
+
+</html>
