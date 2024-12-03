@@ -40,8 +40,12 @@ The **Zoo Customer Survey Form** is a user-friendly and accessible form built us
 
 ## 📷 Preview
 
-Here’s a preview of the project design.![Screenshot_2](https://github.com/user-attachments/assets/7998c4aa-a5e9-4af1-bfb2-a707ea1d7e2a)
-![Screenshot_1](https://github.com/user-attachments/assets/5b223688-4728-428e-8b57-37bd9a5702a9)
+Here’s a preview of the project design.
+
+![Screenshot_1](https://github.com/user-attachments/assets/f5f93adf-6e2e-47ad-9225-a230123085bd)
+![Screenshot_2](https://github.com/user-attachments/assets/24c5686e-c92f-487a-acdf-cb490c84a660)
+
+
 
 
 ---
