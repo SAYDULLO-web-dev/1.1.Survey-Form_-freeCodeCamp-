@@ -62,18 +62,23 @@ To view the survey form locally:
 
 
 🎯 Project Objectives
+
 This project was developed to meet the following objectives:
-*Practice and demonstrate responsive web design principles.
-*Build and style a functional web form.
-*Implement accessibility best practices.
-*Learn and utilize modern web development techniques.
+ * Practice and demonstrate responsive web design principles.
+ * Build and style a functional web form.
+ * Implement accessibility best practices.
+ * Learn and utilize modern web development techniques.
+
 
 📚 Lessons Learned
-*Using media queries to create a responsive layout.
-*Styling form elements consistently with CSS.
-*Importance of semantic HTML and accessibility.
+
+ * Using media queries to create a responsive layout.
+ * Styling form elements consistently with CSS.
+ * Importance of semantic HTML and accessibility.
+
 
 👏 Acknowledgements
-freeCodeCamp for the project guidelines and learning resources.
-Pexels for the background image used in the project.
+
+ * freeCodeCamp for the project guidelines and learning resources.
+ * Pexels for the background image used in the project.
 
