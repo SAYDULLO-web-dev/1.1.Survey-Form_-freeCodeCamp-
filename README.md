@@ -56,7 +56,7 @@ To view the survey form locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SAYDULLO-web-dev/zoo-customer-survey.git
+   git clone https://github.com/SAYDULLO-web-dev/1.1.Survey-Form_-freeCodeCamp-.git
 
 2. Open the index.html file in any modern web browser.
 
